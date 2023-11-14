@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+// const apiUrl = "http://localhost:5000/questions";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="quiz-container">
+      <h1>React Quiz</h1>
+      <div className="question-container">
+        <p>PITANJE</p>
+        <div className="options-container">PONUDJENI ODGOVORI</div>
+      </div>
+      <button>Next Question</button>
     </div>
   );
 }
